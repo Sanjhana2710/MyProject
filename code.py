@@ -39,3 +39,6 @@ def hangman():
             print("Incorrect guess.")
             
     print(f"\nGame Over! The word was: {word}")
+
+if __name__ == "__main__":
+    hangman()
